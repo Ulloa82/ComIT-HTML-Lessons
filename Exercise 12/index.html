@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <header>
+        Funky List Titles
+        <style>
+            .Pseudo1:hover{
+                color:white ;
+                background-color: red;
+            }
+            ul li:first-child{
+                font-size: 32px;
+            }
+            ul li:nth-child(3n) {
+                color:greenyellow
+            }
+            ul li:last-child{
+                text-transform: uppercase;
+            }
+        </style>
+    </header>
+</head>
+<body>
+    <ul>
+        <li style="font-style: italic;">One</li>
+        <li class="Pseudo1" style="text-transform: uppercase;">Two</li>
+        <li style="font-weight: 800;">Three</li>
+        <li style="text-transform: uppercase;">Four</li>
+        <li style="font-family:sans-serif ;">Five</li>
+        <li style="font-size: 6px;">Six</li>
+        <li style="font-weight:900;">Seven</li>
+        <li style="text-transform: uppercase;">Eight</li>
+        <li style="text-shadow: 200px;">Nine</li>
+        <li>Ten</li>
+    </ul>    
+</body>
+</html>
