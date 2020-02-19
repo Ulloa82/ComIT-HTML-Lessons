@@ -1,0 +1,22 @@
+.Divone {
+    background-color: red;
+    padding: 20px;
+    display: inline-block;
+    border-right: 1px solid orange;
+    margin-right: 20px;
+}
+.Divtwo {
+    background-color: blue;
+    padding: 30px 10px;
+    display: inline-block;
+    border: 4px solid green;
+}
+.Divthree {
+    height: 50px;
+    width: 50px;
+    background-color: #00aced;
+
+}
+.Divfour {
+    display: none;
+}
